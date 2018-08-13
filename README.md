@@ -26,6 +26,7 @@ Short synthesis of Clean Code book by Robert C. Martin
 * Place opening brackets at the end of the line, not at the beginning of the next line
 * Don't try to condense short functions or statements into a single line
 * Don't be afraid of putting a space character where it's optional (like around operators, between closing parenthesis and opening brackets)
+* Functions should be placed close to the functions that call them if they are in the same file (minimize vertical distance)
 
 #### Example
 ```java
